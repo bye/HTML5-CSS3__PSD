@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="style.css"> </head>
 
 <body>
+  <audio autoplay>
+    <source src="audio/353%5Bkb%5Dscary-movie-glass-rubbing.aif.ogg" type="audio/ogg">
+    <source src="audio/353%5Bkb%5Dscary-movie-glass-rubbing.aif.mp3" type="audio/mpeg"> </audio>
   <div class="container">
     <header class="header">
       <div class="header__wrapper">
@@ -26,7 +29,12 @@
         <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
         <p class="description__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
       </div>
-      <a href="#" class="description__link"><img class="description__image" alt="description image" src="#"></a>
+      <div class="description__video">
+        <video width="400px" height="230px" controls preload="metadata" poster="Dancing-Bulbs/snapshots/Dancing-Bulbs.jpg" loop autoplay>
+          <source src="Dancing-Bulbs/MP4/Dancing-Bulbs.mp4" type="video/mp4">
+          <source src="Dancing-Bulbs/WEBM/Dancing-Bulbs.webm" type="video/webm">
+          <source src="Dancing-Bulbs/OGV/Dancing-Bulbs.ogv" type="video/ogg"> Данный формат видео не поддерживается</video>
+      </div>
     </article>
     <section class="pluses">
       <h3 class="pluses__title">Dignity and pluses product</h3>
