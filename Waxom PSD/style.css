@@ -160,11 +160,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header__arrow {
@@ -172,7 +172,7 @@ a {
   min-width: 50px;
   border: 1px solid #fff;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   cursor: pointer;
   -webkit-transition: .2s linear;
   transition: .2s linear;
@@ -217,8 +217,8 @@ a {
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .header__index-link {
@@ -346,17 +346,17 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 872px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-bottom: 65px;
 }
 
@@ -403,12 +403,12 @@ a {
   -webkit-transition: .2s linear;
   transition: .2s linear;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .link-btn:hover {
   -webkit-box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .2), inset 0px 1px 0px #666, inset 0px 2px 0px #555, inset 0px 3px 0px #444, inset 0px 4px 0px #333, inset 0px 5px 4px #001135;
-          box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .2), inset 0px 1px 0px #666, inset 0px 2px 0px #555, inset 0px 3px 0px #444, inset 0px 4px 0px #333, inset 0px 5px 4px #001135;
+  box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .2), inset 0px 1px 0px #666, inset 0px 2px 0px #555, inset 0px 3px 0px #444, inset 0px 4px 0px #333, inset 0px 5px 4px #001135;
   padding-top: 5px;
 }
 
@@ -442,7 +442,7 @@ a {
 .slider__switch:checked + .slider__switch-btn {
   border: 2px solid #d3c1ad;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: transparent;
   width: 15px;
   height: 15px;
@@ -454,8 +454,8 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -468,7 +468,7 @@ a {
 .services__item {
   height: 290px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-top: 80px;
   margin-bottom: 80px;
   cursor: pointer;
@@ -498,7 +498,7 @@ a {
 }
 
 .services__caption {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   color: #555555;
   font-size: 22px;
   font-weight: 600;
@@ -509,7 +509,7 @@ a {
 }
 
 .services__depiction {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   color: #8c8c8c;
   font-size: 14px;
   font-weight: 300;
@@ -557,11 +557,11 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .advert__wrapper {
@@ -570,18 +570,18 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 1230px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: url(img/browser-left-min.png) left bottom no-repeat, url(img/browser-right-min.png) right bottom no-repeat;
   padding-top: 80px;
 }
 
 .advert__title {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   color: #555555;
   font-size: 30px;
   font-weight: 600;
@@ -590,7 +590,7 @@ a {
 
 .advert__text {
   max-width: 757px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   color: #8c8c8c;
   font-size: 16px;
   font-weight: 300;
@@ -606,12 +606,11 @@ a {
 
 .advert__purchase {
   -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
   background: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
   background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
   opacity: 0;
-  height: 0;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
@@ -621,13 +620,13 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 48px 0;
 }
 
 .purchase__title {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 28px;
   font-weight: 400;
@@ -639,7 +638,7 @@ a {
 }
 
 .purchase__text {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   color: #615855;
   font-size: 18px;
   font-weight: 300;
@@ -651,5 +650,143 @@ a {
 
 .advert:hover .advert__purchase {
   opacity: 1;
-  height: 150px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.projects__title {
+  font-family: "Raleway", sans-serif;
+  color: #555555;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.projects__text {
+  font-family: "Montserrat", sans-serif;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  max-width: 750px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects__menu {
+  display: flex;
+}
+
+.projects__link {
+  padding: 10px 25px;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.projects__link:hover {
+  color: #fff;
+  background-color: #998675;
+}
+
+.projects__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projects__post {
+  width: 370px;
+  height: 337px;
+  margin: 15px 0;
+}
+
+.post__icons {
+  display: flex;
+  height: 237px;
+}
+
+.post__link {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, .6);
+  opacity: 0;
+  transition: .2s linear;
+}
+
+.post__link:first-child {
+  justify-content: flex-end;
+}
+
+.post__link-img {
+  padding: 0 12px;
+}
+
+.icons__bg-1 {
+  background-color: #362f2d;
+  background: url(img/bg-1.png) no-repeat;
+}
+
+.icons__bg-2 {
+  background-color: #362f2d;
+  background: url(img/bg-2.png) no-repeat;
+}
+
+.icons__bg-3 {
+  background-color: #362f2d;
+  background: url(img/bg-3.png) no-repeat;
+}
+
+.icons__bg-4 {
+  background-color: #362f2d;
+  background: url(img/bg-4.png) no-repeat;
+}
+
+.icons__bg-5 {
+  background-color: #362f2d;
+  background: url(img/bg-5.png) no-repeat;
+}
+
+.icons__bg-6 {
+  background-color: #362f2d;
+  background: url(img/bg-6.png) no-repeat;
+}
+
+.post__description {
+  padding: 30px;
+  transition: .2s linear;
+}
+
+.post__title {
+  font-family: "Raleway", sans-serif;
+  color: #c7b29a;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.post__text {
+  font-family: "Montserrat", sans-serif;
+  color: #d1d1d1;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-top: 14px;
+}
+
+.projects__post:hover .post__link {
+  opacity: 1;
+}
+
+.projects__post:hover .post__description {
+  background-color: #362f2d;
 }
