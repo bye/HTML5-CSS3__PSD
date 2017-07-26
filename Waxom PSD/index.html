@@ -27,6 +27,7 @@
           <a href="#" class="header__index-link">
             <div class="logo"><span class="logo__text">Waxom</span> </div>
           </a>
+          <input type="checkbox" id="menu__input" name="menu">
           <nav class="header__menu">
             <ul class="menu__list">
               <li class="menu__item"><a href="#" class="menu__link"> Home</a></li>
@@ -39,6 +40,7 @@
               <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
             </ul>
           </nav>
+          <label class="menu__burger" for="menu__input"> <span class="burger__img"></span> </label>
           <a href="#" class="header__cart"></a>
           <input type="text" class="header__search" id="search" placeholder="Search">
           <label class="header__search-label" for="search"><img src="img/icon-search-min.png"></label>
@@ -190,9 +192,6 @@
       </div> <a href="#" class="link-btn"><span class="link-btn__text">Load more</span></a> </section>
     <section class="video">
       <div class="video__container">
-        <video class="video__video" controls poster="video/poster.png">
-          <source src="video/Typing.mp4" type="video/mp4">
-          <source src="video/Typing.webm" type="video/webm"> </video>
         <div class="video__presentation">
           <div class="video__btn"></div>
           <div class="video__text">
@@ -203,15 +202,15 @@
       </div>
     </section>
     <section class="advantage">
-      <div class="advantage__wrapper wrapper"> <img src="img/iPhone%20in%20hand-min.png" alt="iPhone in hand" class="advantage__img">
+      <div class="advantage__wrapper wrapper">
         <div class="advantage__text">
           <h3 class="advantage__title">Excellent for Mobile Devices.</h3>
           <p class="advantage__paragraph">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
           <ul class="advantage__list">
-            <li class="advantage__item"><span class="advantage__item-icon"></span>Nam liber tempor cum soluta nobis eleifend option; </li>
-            <li class="advantage__item"><span class="advantage__item-icon"></span>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
-            <li class="advantage__item"><span class="advantage__item-icon"></span>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
-            <li class="advantage__item"><span class="advantage__item-icon"></span>Investigationes demonstraverunt lectores</li>
+            <li class="advantage__item"><span class="advantage__item-icon"></span><span class="advantage__item-text">Nam liber tempor cum soluta nobis eleifend option;</span> </li>
+            <li class="advantage__item"><span class="advantage__item-icon"></span><span class="advantage__item-text">Option congue nihil imperdiet doming id quod mazim placerat facer;</span></li>
+            <li class="advantage__item"><span class="advantage__item-icon"></span><span class="advantage__item-text">Eodem modo typi, qui nunc nobis videntur parum futurum;</span></li>
+            <li class="advantage__item"><span class="advantage__item-icon"></span><span class="advantage__item-text">Investigationes demonstraverunt lectores</span></li>
           </ul>
         </div>
       </div>
